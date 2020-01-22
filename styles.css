@@ -1,0 +1,344 @@
+/* tml{scroll-behavior: smooth;
+}
+ body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    background-image: url(darkrural.jpeg);
+    background-repeat: no-repeat; */
+
+  html{
+      scroll-behavior: smooth;
+  }  
+  body{
+        margin: 0;
+        padding: 0;
+        font-family:'Oleo Script Swash Caps', cursive;
+        background-image:url(unsplash3.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        
+        overflow-x: hidden;
+        overflow-y: scroll;
+        border-bottom-width: 90%;
+        
+    }
+header{
+  background-color: black;  
+}
+nav{
+    text-align: center;
+    position: fixed;
+    background-image:url();
+    width: 100%;
+    background-color: black;
+    opacity: 0.6;
+}
+ nav ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-image: url(advert2.jpg);
+}
+nav a{
+    padding: 20px;
+    width: 100px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#section1{
+    height: 700px;
+    background-image:url(advert.jpeg);
+    display: inline-block;
+    width: 100%;
+    background-repeat: no-repeat;
+    color:white;
+    font-family: tahoma;
+    text-transform: uppercase;
+    font-style: italic;
+    opacity: 0.9;
+    margin: 0;
+    padding: 0;
+    background-color: ;
+}
+#section1 >h3{
+    float: right;
+}
+#section1 > #float{
+    float: right;
+}
+#section2{
+    height: 700px;
+    background-image: url(advert.jpeg);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 100%;
+    text-transform: uppercase;
+    font-size:0.9rem;
+    font-weight:500;
+    padding:10px 21px;
+    color:white;
+    mix-blend-mode: screen;
+    pointer-events: none;
+    user-select: none;
+    font-family: tahoma;
+    font-style: italic;
+}
+#Brands {
+    text-align: center;
+
+}
+#section3{
+    height: 700px;
+    background-image:url(advert.jpeg);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 100%;
+    color:white;
+    font-family: tahoma;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+#section4{
+    height: 700px;
+    background-repeat: no-repeat;
+    background-image:url(advert.jpeg);
+    width: 100%;
+    color:white;
+    font-family: tahoma;
+    text-transform: uppercase;
+    font-style: italic;
+    flex-direction: row;
+    float:right;
+    background-size: 100%;
+    
+}
+h2{
+    color: whitesmoke;
+    font-weight: bolder;
+}
+h4{
+    color: turquoise;
+    font-weight: bolder;
+}
+h3{
+    color:black ;
+    font-weight: bolder;
+}
+h2 >h3 >h4{
+    background-color: black;
+}
+
+
+#float{
+    float: left;
+    border: 1px groove grey;
+    margin-right: 50px;
+    background-color: black;
+    opacity: 0.8;
+    font-size: 18px;
+    text-align: center;
+}
+#float{
+    text-align: center;
+    float: left;
+
+}
+h2{
+    text-align: center;
+    }
+ h3{
+        text-align: center;
+    }
+#section5{
+    height: 700px;
+    background-repeat: no-repeat;
+    background-image:url(advert.jpeg);
+    display: inline-block;
+    width: 100%;
+    color:white;
+    font-family: tahoma;
+    text-transform: uppercase;
+    font-style: italic;
+   
+}
+#section5 > #activities{
+    margin-left:auto;
+    margin-right:auto;
+    border-collapse:collapse;
+    width:50%;
+    background-color: black;
+    
+  }
+  #activities td, #activities th{
+    border:1px solid #ddd;
+    padding:8px;
+    color:white;
+  }
+  #activities tr:{
+    background-color:f2f2f2;
+  }
+  #activities tr:hover:{
+    background-color:rgba(0, 0, 0, 0.5);
+    color:black;
+  }
+  #activities{
+    padding-top:12px;
+    padding-bottom:12px;
+    text-align:left;
+    color:white;
+   
+  }
+}
+#section6{
+    height: 700px;
+    background-repeat: no-repeat;
+    background-image:url(advert.jpeg);
+    font-style: italic;
+    font-weight: bolder;
+    display: inline-block;
+    width: 100%;
+    color:white;
+    font-family: tahoma;
+    text-transform: uppercase;
+}
+h1{
+    color: white;
+    font-family: tahoma;
+    font-weight: bolder;
+    font-style: italic;
+}
+p{
+    color: white;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: ;   
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+}
+.wrapper{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width:100%;
+    padding:0 20px;
+}
+.contact-form{
+    max-width: 500px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    
+    box-shadow:0 0 10px;
+    position: ;
+
+}
+.input-fields{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4%;
+}
+.input-fields, .msg{
+    width:100%;
+}
+.input-fields .input, .msg textarea{
+    margin: 10px 0;
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid #c5ecfd;
+    padding: 10px;
+    color: #c5ecfd;
+    width: 100%;
+}
+.msg textarea{
+    height: 80px;
+}
+::-webkit-input-placeholder{
+    color:#c5ecfd;
+}
+::-moz-input-placeholder{
+    color:#c5ecfd;
+}
+::-ms-input-placeholder{
+    color:#c5ecfd;
+}
+.btn{
+    background: #39b7dd;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    color:#fff;
+    cursor: pointer;
+    text-transform: uppercase;
+    width: 100px;
+}
+@media screen and (max-width:600px){
+    .contact-form{
+        flex-direction: column;
+    }
+    .msg textarea{
+        height:50px;
+    }
+    .input-fields,
+    .msg{
+        width:80%;
+    }
+}
+#details{
+    display: flex;
+    justify-content: center;
+    float:right;
+   
+    flex-direction: column;
+    width: 30%;
+    height: 433px;
+    text-align: center;
+    padding: 20px;
+}
+#details, h4{
+    float: right;
+}
+#section7{
+    height: 700px;
+    background-image: url(advert.jpeg);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 100%;
+    color:white;
+    font-family: tahoma;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-style: italic;
+    
+    list-style: none;
+}
+h1{
+    margin: 100px;
+    text-align: center;
+    padding: 0;
+}
+.directions{
+    text-align: center;
+
+}
+.details >.button{
+    color: white;
+    list-style: none;
+}
